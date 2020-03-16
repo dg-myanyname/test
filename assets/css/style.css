@@ -1,0 +1,57 @@
+body {
+	text-align: center;
+}
+
+#container {
+	margin: 0 auto;
+	text-align: left;
+	width: 960px;
+	position: relative;
+}
+
+#header img{
+	margin: 0 auto;
+	display: block;
+}
+
+#sidebar {
+	position: fixed;
+	top: 86px;
+	width: 200px;
+	margin-left: 970px;
+	background-color: #FFF;
+	padding: 0 10px;
+}
+
+#g-map{
+	height: 400px;  /* The height is 400 pixels */
+	width: 100%;  /* The width is the width of the web page */
+}
+
+article{margin-bottom: 20px;}
+
+article:after{
+	content: ' ';
+	clear: both;
+	display: block;
+}
+
+article img {
+	float: left;
+	margin-right: 10px;
+}
+
+@media (max-width: 1400px){
+	#container{
+		width: 100%;
+		max-width: 960px;
+		margin-bottom: 140px;
+	}
+	#sidebar{
+		bottom: 0;
+		margin: 0;
+		width: auto;
+		top: auto;
+		left: 0;
+	}
+}
