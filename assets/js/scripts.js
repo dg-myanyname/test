@@ -54,11 +54,11 @@
 
 		let strings = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non velit interdum, faucibus leo eget, maximus sem.',
-			'Fusce nibh nisl, auctor sit amet mauris eu, egestas efficitur ipsum. Nullam est lectus, auctor quis ipsum a, dignissim fringilla turpis.',
-			'Proin sit amet ipsum dolor. Vestibulum tempor, mi ac imperdiet ornare, odio risus dapibus ligula, in sagittis est lectus vel sem.',
+			'Fusce nibh nisl, auctor sit amet mauris eu, egestas efficitur ipsum. Nullam est lectus, auctor quis ipsum a, dignissim fringilla.',
+			'Proin sit amet ipsum dolor. Vestibulum tempor, mi ac imperdiet ornare, odio risus dapibus ligula, in sagittis est lectus vel.',
 			'In scelerisque ligula eget nulla aliquet viverra. Nullam interdum purus eget ante volutpat rhoncus.',
 			'Nullam sagittis imperdiet dui, rutrum semper diam venenatis vel. Donec faucibus hendrerit nisl, ut porta tellus dapibus ultricies.',
-			'Fusce quis quam mauris.'
+			'Fusce quis quam mauris. Curabitur placerat sapien eget ipsum aliquet facilisis.'
 		];
 
 		let articlesData = [];
@@ -75,7 +75,7 @@
 					alt: 'alt text ' + i,
 					title: 'title text ' + i
 				},
-				text: randomStrings.join(', ')
+				text: randomStrings.join(' ')
 			}
 
 			articlesData.push(newArticle);
